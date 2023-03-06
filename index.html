@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#12141F]">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@200;300;400;500&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Home - Fahri Gunadi</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body class="scrollbar-hide">
+    <!-- navbar -->
+    <div class="navbar transparent md:px-10 scroll-pt-10">
+      <div class="navbar-start">
+        <a href="#" class="btn btn-ghost normal-case text-2xl  font-montserrat font-bold text-white">Fahri Gunadi.</a>
+      </div>
+      <div class="navbar-end">
+        <div class="dropdown">
+          <label for="my-modal-3" tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </label>
+        </div>
+      </div>
+      <div class="navbar-end hidden lg:flex w-[60%]">
+        <ul class="menu menu-horizontal px-1 text-white font-montserrat font-light font-sm uppercase">
+          <li><a href="#about">about</a></li>
+          <li><a href="#skill">skill</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">project</a></li>
+          <li><a href="#post">post</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="container mx-auto px-6 md:px-10 lg:px-0 relative h-[68vh] md:h-[460px]">
+        <div class="mt-36 text-center lg:text-start">
+          <h1 class="font-montserrat text-white text-3xl md:text-6xl sm:pl-0 md:pl-0">Hi I'm <span class="font-bold">Fahri Gunadi</span>,</h1>
+          <p class="font-montserrat text-white text-lg lg:text-3xl sm:pl-1 py-3 md:py-5 lg:py-3 leading-5">I am an enthusiastic <span class="font-bold">Programmer</span> who loves exploring <br class="hidden md:block"> technology.</p>
+
+          <div class="flex gap-3 flex-row md:flex-row md:mt-0 justify-center lg:justify-start">
+            <a href="#contact" class="btn bg-[#FB8903] hover:bg-[#f28304] text-white md:w-[160px] w-[130px] md:text-lg capitalize lg:mt-5 border-0 "> 
+              <svg class="md:w-7 w-7 md:h-5 h-5 mr-2" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0V16.8832L3.64921 13.5065H7.29843V3.37663H18.2461V0H0ZM10.9476 6.75326V20.2598H25.5445L29.1937 23.6364V6.75326H10.9476Z" fill="white"/>
+              </svg>
+              Lets talk
+            </a>
+
+            <a href="https://resume.showwcase.com/fahrigunadi.pdf" target="_blank" class="btn bg-transparent text-[#767DA1] md:w-[201px] w-[170px] md:text-lg capitalize lg:mt-5 hover:bg-primary hover:text-white hover:border-0 border-[#767DA1]"> 
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              View resume
+            </a>
+          </div>
+        </div>
+
+        <div class="hidden lg:block w-[81px] h-[81px] bg-[#8F1100] absolute rounded-full blur-lg -top-[100px] left-[943px] -z-10"></div>
+        <div class="hidden lg:block w-[228px] h-[228px] bg-[#6A008F] absolute rounded-full blur-lg bottom-[0] left-[876px] -z-10"></div>
+        <div class="hidden lg:block w-[160px] h-[160px] bg-[#DB8606] absolute rounded-full blur-lg bottom-[40px] left-[451px] -z-10"></div>
+        
+        <div class="flex items-center rotate-90 absolute bottom-16 md:-left-6 -left-8 -z-10 animate-bounce2">
+          <p class="font-montserrat text-light uppercase text-white text-xs">scroll down</p>
+          <svg width="57" height="10" viewBox="0 0 57 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M56.2071 8.20711C56.5976 7.81658 56.5976 7.18342 56.2071 6.79289L49.8431 0.428932C49.4526 0.0384078 48.8195 0.0384078 48.4289 0.428932C48.0384 0.819457 48.0384 1.45262 48.4289 1.84315L54.0858 7.5L48.4289 13.1569C48.0384 13.5474 48.0384 14.1805 48.4289 14.5711C48.8195 14.9616 49.4526 14.9616 49.8431 14.5711L56.2071 8.20711ZM0.499998 8.5L55.5 8.5V6.5L0.499998 6.5L0.499998 8.5Z" fill="white"/>
+          </svg>
+        </div>
+        
+        <!-- social -->
+        <div class="hidden lg:flex flex-col text-black bg-slate-400/50 p-2 gap-3 rounded-tl-lg rounded-bl-lg absolute -right-12 bottom-48 items-center">
+          <a href="https://www.instagram.com/fahri_gunadi/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg"  class="h-7 w-7 transition duration-200 hover:text-[#fb3958]" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </a>
+          <a href="https://twitter.com/fahrigunadi" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-200 hover:text-[#00acee]" fill="currentColor" viewBox="0 0 512 512">
+              <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+          </a>
+          <a href="https://github.com/fahrigunadi" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-200 hover:text-[#fff]" fill="currentColor" viewBox="0 0 496 512">
+              <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/fahrigunadi/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-200 hover:text-[#0e76a8]" fill="currentColor" viewBox="0 0 448 512">
+              <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+          </a>
+          <a href="https://www.showwcase.com/fahrigunadi" target="_blank">
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transition duration-200 hover:text-white" viewBox="0 0 39.000000 40.000000" fill="currentColor" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,40.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M115 376 c-60 -27 -115 -110 -115 -174 0 -152 168 -246 297 -166 74 46 109 139 83 219 -16 47 -66 104 -107 121 -41 18 -119 17 -158 0z m122 -103 c15 -10 24 -12 20 -5 -6 8 -2 12 12 12 24 0 34 -28 25 -66 -7 -26 -8 -26 -15 -9 -6 13 -7 3 -4 -25 8 -65 -2 -75 -80 -75 -78 0 -88 10 -80 75 3 30 2 38 -4 25 -7 -17 -10 -15 -16 17 -8 43 -1 58 27 58 17 0 18 -3 8 -15 -7 -8 -16 -12 -21 -9 -5 3 -6 -2 -3 -10 5 -13 12 -10 36 14 34 34 57 37 95 13z"/><path d="M271 251 c-8 -5 -9 -11 -3 -15 5 -3 12 1 16 9 6 17 6 18 -13 6z"/></g></svg>
+          </a>
+        </div>
+        <!-- social end-->
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- about me -->
+    <section id="about" class="bg-[#0B0D14]">
+      <div class="container mx-auto md:mt-3 py-16 py-10 relative ">
+          <div class="flex flex-col justify-center items-center text-center gap-4">
+            <div class="md:pt-0">
+              <p class="font-montserrat font-bold uppercase text-white text-2xl">about me</p>
+              <p class="font-chivo text-lg text-slate-500 uppercase tracking-[0.2em]">get to know better</p>
+            </div>
+            <div class="avatar">
+              <div class="w-44 rounded-full">
+                <img src="./public/asset/img/fahri.png" />
+              </div>
+            </div>
+            <div class="flex mx-auto gap-3 w-auto justify-center items-center mt-1">
+              <a href="https://www.instagram.com/fahri_gunadi/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg"  class="h-7 w-7 transition duration-300 hover:text-[#fb3958]" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+              </a>
+              <a href="https://twitter.com/fahrigunadi" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-300 hover:text-[#00acee]" fill="currentColor" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+              </a>
+              <a href="https://github.com/fahrigunadi" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-300 hover:text-[#fff]" fill="currentColor" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/fahrigunadi/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-300 hover:text-[#0e76a8]" fill="currentColor" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+              </a>
+              <a href="https://www.showwcase.com/fahrigunadi" target="_blank">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transition duration-300 hover:text-white" viewBox="0 0 39.000000 40.000000" fill="currentColor" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,40.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M115 376 c-60 -27 -115 -110 -115 -174 0 -152 168 -246 297 -166 74 46 109 139 83 219 -16 47 -66 104 -107 121 -41 18 -119 17 -158 0z m122 -103 c15 -10 24 -12 20 -5 -6 8 -2 12 12 12 24 0 34 -28 25 -66 -7 -26 -8 -26 -15 -9 -6 13 -7 3 -4 -25 8 -65 -2 -75 -80 -75 -78 0 -88 10 -80 75 3 30 2 38 -4 25 -7 -17 -10 -15 -16 17 -8 43 -1 58 27 58 17 0 18 -3 8 -15 -7 -8 -16 -12 -21 -9 -5 3 -6 -2 -3 -10 5 -13 12 -10 36 14 34 34 57 37 95 13z"/><path d="M271 251 c-8 -5 -9 -11 -3 -15 5 -3 12 1 16 9 6 17 6 18 -13 6z"/></g></svg>
+              </a>
+            </div>
+            <p class="font-chivo text-xl text-slate-100 font-thin max-w-[830px] px-3 mt-3 mb-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="text-center">
+              <p class="font-montserrat text-white capitalize font-bold text-xl mb-2">education</p>
+              <p class="font-montserrat text-white font-semibold md:text-2xl uppercase">smk negeri 1 padaherang</p>
+              <p class="font-chivo text-xl text-slate-500 max-w-[854px] px-3 -mt-1">Software engineer
+              </p>
+            </div>
+          </div>
+          <div class="hidden md:flex items-center justify-center rotate-90 absolute bottom-20  md:-right-14 animate-bounce2">
+            <p class="font-montserrat text-light uppercase text-white text-xs">scroll down</p>
+            <svg width="57" height="10" viewBox="0 0 57 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M56.2071 8.20711C56.5976 7.81658 56.5976 7.18342 56.2071 6.79289L49.8431 0.428932C49.4526 0.0384078 48.8195 0.0384078 48.4289 0.428932C48.0384 0.819457 48.0384 1.45262 48.4289 1.84315L54.0858 7.5L48.4289 13.1569C48.0384 13.5474 48.0384 14.1805 48.4289 14.5711C48.8195 14.9616 49.4526 14.9616 49.8431 14.5711L56.2071 8.20711ZM0.499998 8.5L55.5 8.5V6.5L0.499998 6.5L0.499998 8.5Z" fill="white"/>
+            </svg>
+          </div>
+      </div>
+    </section>
+    <!-- about me end -->
+
+    <!-- skill -->
+    <section id="skill">
+      <div class="container mx-auto mt-10 mb-10">
+        <p class="font-montserrat font-bold uppercase text-white text-2xl text-center md:pt-0">skill</p>
+        <div class="flex flex-wrap mx-auto mt-10 gap-y-9 md:gap-4 justify-center">
+          <a href="">
+            <div class="card w-[330px] md:w-[350px] min-h-[250px] rounded-lg bg-[#0B0D14] hover:bg-[#FB8903] transition">
+              <div class="card-body text-white text-center">
+
+                <svg class="mx-auto" width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.75 0L9.5 29H14.25L28.5 0H23.75ZM4.75 4.83333L0 14.5L4.75 24.1667H9.5L4.75 14.5L9.5 4.83333H4.75ZM28.5 4.83333L33.25 14.5L28.5 24.1667H33.25L38 14.5L33.25 4.83333H28.5Z" fill="white"/>
+                </svg>
+  
+                <h2 class="card-title mx-auto my-2 md:my-3">HTML, CSS & JS</h2>
+                <p>Berpengalaman lebih dari 3 tahun dalam menggunakan HTML, CSS dan JS untuk mengembangkan sebuah website</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="card w-[330px] md:w-[350px] min-h-[250px] rounded-lg bg-[#0B0D14] hover:bg-[#FB8903] transition">
+              <div class="card-body text-white text-center">
+
+                <svg width="38" class="mx-auto" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.61809 0.00963586C1.12655 0.174845 0.702612 0.496377 0.411016 0.925122C0.11942 1.35387 -0.0238004 1.86626 0.00322962 2.38403V35.6256C0.00322962 36.2553 0.253431 36.8593 0.698792 37.3046C1.14415 37.7498 1.74819 38 2.37803 38H35.6252C36.255 38 36.8591 37.7498 37.3044 37.3046C37.7498 36.8593 38 36.2553 38 35.6256V2.38403C38 1.7543 37.7498 1.15037 37.3044 0.705081C36.8591 0.259795 36.255 0.00963586 35.6252 0.00963586L2.37803 0.00963586C2.23583 -0.00321195 2.09276 -0.00321195 1.95056 0.00963586C1.85566 0.00393217 1.76049 0.00393217 1.66559 0.00963586L1.61809 0.00963586ZM7.12762 4.75843C8.45751 4.75843 9.50242 5.80317 9.50242 7.13283C9.50242 8.46249 8.45751 9.50723 7.12762 9.50723C5.79774 9.50723 4.75283 8.46249 4.75283 7.13283C4.75283 5.80317 5.79774 4.75843 7.12762 4.75843ZM16.6268 4.75843H30.8756C32.2055 4.75843 33.2504 5.80317 33.2504 7.13283C33.2504 8.46249 32.2055 9.50723 30.8756 9.50723H16.6268C15.2969 9.50723 14.252 8.46249 14.252 7.13283C14.252 5.80317 15.2969 4.75843 16.6268 4.75843ZM4.75283 14.256H33.2504V33.2512H4.75283V14.256Z" fill="white"/>
+                </svg>
+  
+                <h2 class="card-title mx-auto my-2 md:my-3">PHP</h2>
+                <p>Berpengalaman lebih dari 3 tahun dalam menggunakan bahasa pemrograman PHP untuk mengembangkan sebuah website</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="card w-[330px] md:w-[350px] min-h-[250px] rounded-lg bg-[#0B0D14] hover:bg-[#FB8903] transition">
+              <div class="card-body text-white text-center">
+
+              <svg class="mx-auto" width="35" height="41" viewBox="0 0 35 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 0.972168C4.65 0.972168 4.35 1.02182 4.05 1.12112C2.1 1.51833 0.55 3.05752 0.15 4.99391C0 5.29182 0 5.58973 0 5.93728V33.2454C0 37.3665 3.35 40.6931 7.5 40.6931H35V35.728H7.5C6.1 35.728 5 34.6357 5 33.2454C5 31.8552 6.1 30.7629 7.5 30.7629H35V3.45473C35 2.06449 33.9 0.972168 32.5 0.972168H30V15.8675L25 10.9024L20 15.8675V0.972168H5Z" fill="white"/>
+              </svg>
+  
+                <h2 class="card-title mx-auto my-2 md:my-3">LARAVEL</h2>
+                <p>Berpengalaman lebih dari 3 tahun dalam menggunakan Framework Laravel untuk mengembangkan sebuah website</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="card w-[330px] md:w-[350px] min-h-[250px] rounded-lg bg-[#0B0D14] hover:bg-[#FB8903] transition">
+              <div class="card-body text-white text-center">
+
+                <svg class="mx-auto" width="38" height="34" viewBox="0 0 38 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0.634521V33.6525H38V28.9357H4.75V0.634521H0ZM23.75 0.634521V24.2188H33.25V0.634521H23.75ZM9.5 10.0682V24.2188H19V10.0682H9.5Z" fill="white"/>
+                </svg>
+  
+                <h2 class="card-title mx-auto my-2 md:my-3">MySql</h2>
+                <p>Berpengalaman lebih dari 3 tahun dalam menggunakan MySql untuk menegelola database</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="card w-[330px] md:w-[350px] min-h-[250px] rounded-lg bg-[#0B0D14] hover:bg-[#FB8903] transition">
+              <div class="card-body text-white text-center">
+
+                <svg class="mx-auto" width="45" height="24" viewBox="0 0 45 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.6364 0.565008L0 0.564941L11 11.8493L0 23.1336H13.6364L25 11.8493L13.6364 0.565008Z" fill="white"/>
+                  <path d="M33.6364 0.565008L20 0.564941L31 11.8493L20 23.1336H33.6364L45 11.8493L33.6364 0.565008Z" fill="white"/>
+                </svg>
+  
+                <h2 class="card-title mx-auto my-2 md:my-3">Inertia</h2>
+                <p>Berpengalaman lebih dari 3 tahun dalam menggunakan Inertia untuk mengembangkan sebuah website</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="card w-[330px] md:w-[350px] min-h-[250px] rounded-lg bg-[#0B0D14] hover:bg-[#FB8903] transition">
+              <div class="card-body text-white text-center">
+
+                <svg class="mx-auto" width="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path fill="#fff" d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1.9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2.6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6.4 19.5.6 29.5.6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8.9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z"/>
+                </svg>
+  
+                <h2 class="card-title mx-auto my-2 md:my-3">React</h2>
+                <p>Berpengalaman lebih dari 3 tahun dalam menggunakan React untuk mengembangkan sebuah website</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- skill end -->
+
+    <!-- experience -->
+    <section id="experience" class="bg-[#0B0D14]">
+      <div class="container mx-auto pb-20">
+        <p class="font-montserrat font-bold uppercase text-white text-2xl text-center pb-10 pt-16 ">experience</p>
+        
+        <div class="mt-[120px] pb-[60px] relative">
+
+          <!-- active work -->
+          <div class="w-auto md:w-[630px] h-[170px] md:mb-0 md:border-l md:border-white mx-auto relative after:hidden md:after:block after:w-3 after:h-3 after:rounded-full after:bg-white after:absolute after:-top-[6px] after:-left-[6.5px] mb-16">
+            <svg class="absolute left-2 -top-5 hidden md:block" width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.179085 19.8146L35.353 0.20192L35.0428 41.6736L0.179085 19.8146Z" fill="#1C213F"/>
+            </svg> 
+            <div class="card shadow-lg mx-10 md:w-[568.79px] rounded-none bg-[#1C213F] absolute -top-[100px]">              
+              <div class="card-body text-white text-start">
+
+                <p class="font-thin text-lg text-white -mb-3">August 2022 - Present</p>
+                <h2 class="card-title font-bold font-montserrat text-xl md:text-3xl">Junior Programmer</h2>
+                <p class="font-light text-xl text-white -mt-3">PT. Cigs Indonesia Digital</p>
+
+                <div class="flex flex-wrap gap-x-2 gap-y-2 w-full mt-5">
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    php
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    Javascript
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    laravel
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    inertia
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    react
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    mysql
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    jquery
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    github
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    bootstrap
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- active work end -->
+
+          <!-- work secondary -->
+          <div class="w-auto md:mx-auto mx-[40px] md:w-[630px] h-[170px] md:border-l border-white mx-auto relative items-center md:after:block after:w-3 after:h-3 after:rounded-full after:bg-white after:hidden after:absolute after:-bottom-[6px] after:-left-[6.5px] hover:mb-32 md:hover:mb-0 transition-[margin] duration-300">
+            <svg class="absolute left-2 -bottom-5 hidden md:block" width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.179085 19.8146L35.353 0.20192L35.0428 41.6736L0.179085 19.8146Z" fill="#1C213F"/>
+            </svg> 
+            <div class="card shadow-lg mx-auto md:mx-10 group w-full md:w-[568.79px] max-h-[140px] overflow-y-hidden hover:md:-mb-10 md:hover:max-h-[328px] hover:max-h-[440px] duration-500 hover:-mb-64 rounded-none bg-[#1C213F] absolute -bottom-[70px]">  
+              <div class="card-body text-white text-start">
+
+                <p class="font-thin text-lg text-white -mb-3">August 2022 - Present</p>
+                <h2 class="card-title font-bold font-montserrat text-xl md:text-3xl">Junior Programmer - Internship</h2>
+                <p class="font-light text-xl text-white -mt-3 opacity-0 group-hover:opacity-100 transition duration-300">PT. Cigs Indonesia Digital</p>
+
+                <div class="flex flex-wrap gap-x-2 gap-y-2 w-full mt-5">
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    php
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    Javascript
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    laravel
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    inertia
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    react
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    mysql
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    jquery
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    github
+                  </a>
+                  <a href="#" class="btn bg-transparent btn-sm rounded-none text-[#767DA1] h-[10px] w-auto md:text-sm uppercase hover:bg-primary hover:text-white hover:border-transparent border-[#767DA1] text-light"> 
+                    bootstrap
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- work secondary -->
+
+        </div>
+      </div>
+    </section>
+    <!-- experience END -->
+
+    <!-- projects -->
+    <section id="projects" class="bg-[#0B0D14]">
+      <div class="container mx-auto pb-32">
+        <p class="font-montserrat font-bold uppercase text-white text-2xl text-center py-16">projects</p>
+
+        <div class="flex flex-wrap justify-center mt-3 lg:gap-x-32 lg:gap-y-16 gap-10 md:mx-0 mx-7">
+
+          <div class="card card-normal w-96 lg:w-96 md:w-80 shadow-xl bg-[#1C213F]">
+            <figure><img src="./public/asset/img/laptop.jpg" alt="Shoes" class="object-cover h-48 w-full hover:scale-125 transition" /></figure>
+            <div class="card-body text-center font-montserrat text-white">
+              <h2 class=" font-bold text-2xl mx-auto text-center uppercase font-chivo">
+                aplikasi kasir
+              </h2>
+              <a href="#" class="text-center text-xl hover:tracking-wider transition-[letter-spacing]">If a dog chews shoes whose shoes does he choose?</a>
+            </div>
+          </div>
+
+          <div class="card card-normal w-96 lg:w-96 md:w-80 shadow-xl bg-[#1C213F]">
+            <figure><img src="./public/asset/img/laptop-3.jpg" alt="Shoes" class="object-cover h-48 w-full hover:scale-125 transition" /></figure>
+            <div class="card-body text-center font-montserrat text-white">
+              <h2 class=" font-bold text-2xl mx-auto uppercase font-chivo text-center">
+                e-voting / votingkeun
+              </h2>
+              <a href="#" class="text-center text-xl hover:tracking-wider transition-[letter-spacing]">If a dog chews shoes whose shoes does he choose?</a>
+            </div>
+          </div>
+
+          <div class="card card-normal w-96 lg:w-96 md:w-80 shadow-xl bg-[#1C213F]">
+            <figure><img src="./public/asset/img/laptop-2.jpg" alt="Shoes" class="object-cover h-48 w-full hover:scale-125 transition" /></figure>
+            <div class="card-body text-center font-montserrat text-white">
+              <h2 class=" font-bold text-2xl mx-auto text-center uppercase font-chivo">
+                Aplikasi restoran
+              </h2>
+              <a href="#" class="text-center text-xl hover:tracking-wider transition-[letter-spacing]">If a dog chews shoes whose shoes does he choose?</a>
+            </div>
+          </div>
+
+          <div class="card card-normal w-96 lg:w-96 md:w-80 shadow-xl bg-[#1C213F]">
+            <figure><img src="./public/asset/img/laptop.jpg" alt="Shoes" class="object-cover h-48 w-full hover:scale-125 transition" /></figure>
+            <div class="card-body text-center font-montserrat text-white">
+              <h2 class=" font-bold text-2xl mx-auto text-center uppercase font-chivo">
+                Aplikasi survey
+              </h2>
+              <a href="#" class="text-center text-xl hover:tracking-wider transition-[letter-spacing]">If a dog chews shoes whose shoes does he choose?</a>
+            </div>
+          </div>
+
+      </div>
+    </section>
+    <!-- projects End -->
+
+    <!-- contact me -->
+    <section id="contact">
+      <div class="container mx-auto pb-32">
+        <p class="font-montserrat font-bold uppercase text-white text-2xl text-center py-10">contact me</p>
+
+        <form action="#">
+            <div class="flex w-full justify-center gap-5 flex-wrap">
+              <div class="form-control w-full md:w-auto mx-5 md:mx-0">
+                <label class="label">
+                  <span class="label-text text-white text-lg font-montserrat -mb-2 capitalize">Your name</span>
+                </label>
+                <input type="text" placeholder="Azlan Toshio Mustafeed" class="input input-bordered md:w-[370px] lg:w-[400px] h-[50px] bg-[#0B0D14] border-[#727272] focus:text-white text-white font-montserrat capitalize" />
+              </div>
+
+              <div class="form-control  w-full md:w-auto mx-5 md:mx-0">
+                <label class="label">
+                  <span class="label-text text-white text-lg font-montserrat -mb-2 capitalize">Your email</span>
+                </label>
+                <input type="email" placeholder="azlantoshio@gmail.com" class="input input-bordered w-3/2 md:w-[370px] lg:w-[400px] h-[50px] bg-[#0B0D14] border-[#727272] focus:text-white text-white font-montserrat" />
+              </div>
+
+              <div class="form-control  w-full md:w-auto mx-5 md:mx-0">
+                <label class="label">
+                  <span class="label-text text-white text-lg font-montserrat -mb-2 capitalize">Your message</span>
+                </label>
+                <textarea class="textarea textarea-bordered h-24 lg:w-[830px] md:w-[770px] h-[289px] bg-[#0B0D14] border-[#727272] focus:text-white text-white font-montserrat text-lg" placeholder="Hi, my name is Toshio wanna join with us?"></textarea>
+              </div>
+
+              <div class="form-control  w-full mx-5 md:mx-0 md:w-[830px]">
+                <button class="btn bg-[#08080f] text-white w-[150px] h-[40px] md:text-lg capitalize lg:mt-5 border-0 hover:bg-[#0B0B13]">
+                  SUBMIT
+                </button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </section>
+    <!-- contact me END -->
+
+    <!-- footer -->
+    <footer class="footer p-10 bg-[#0B0D14] text-white flex justify-between items-center flex-col md:flex-row text-center">
+      <div class="hidden md:flex flex-col">
+        <a class="link link-hover lg:text-lg md:text-sm font-montserrat">Copyright © 2023 FAHRI GUNADI</a>
+        <a class="link link-hover lg:text-lg md:text-sm font-montserrat -mt-3">Dev Portfolio Template By Dafi N Maulana</a>
+      </div> 
+      <div>
+        <span class="text-xl text-white font-bold font-montserrat mx-auto md:mx-0">Adress</span> 
+        <a class="text-lg font-light">Jawa barat, Indonesia</a>
+      </div> 
+      <div>
+        <span class="text-xl text-white font-bold font-montserrat mx-auto md:mx-0">Social</span> 
+        <div class="flex gap-2">
+          <a href="#" class="text-lg flex items-center gap-[3px]"> 
+            <svg class="h-7 w-7 text-slate-500 transition duration-200 hover:text-pink-600" viewBox="0 0 26 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path  d="M0 0V3.25L13 9.75L26 3.25V0H0ZM0 6.5V19.5H26V6.5L13 13L0 6.5Z"/></svg>
+          </a>
+          <a href="#" class="text-lg flex items-center gap-[3px]"> 
+            <svg class="h-7 w-7 text-slate-500 transition duration-300 hover:text-[#fb3958]" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </a>
+          <a href="#" class="text-lg flex items-center gap-[3px]"> 
+            <svg class="h-7 w-7 text-slate-500 transition duration-200 hover:text-[#00acee]" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+          </a>
+          <a href="#" class="text-lg flex items-center gap-[3px]"> 
+            <svg class="h-7 w-7 text-slate-500 transition duration-200 hover:text-[#fff]" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+          </a>
+          <a href="#" class="text-lg flex items-center gap-[3px]"> 
+            <svg class="h-7 w-7 text-slate-500 transition duration-200 hover:text-[#0e76a8]" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+          </a>
+          <a href="https://www.showwcase.com/fahrigunadi" target="_blank">
+            <svg class="h-8 w-8 transition duration-200 text-slate-500 hover:text-white"  version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.000000 40.000000" fill="currentColor" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,40.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M115 376 c-60 -27 -115 -110 -115 -174 0 -152 168 -246 297 -166 74 46 109 139 83 219 -16 47 -66 104 -107 121 -41 18 -119 17 -158 0z m122 -103 c15 -10 24 -12 20 -5 -6 8 -2 12 12 12 24 0 34 -28 25 -66 -7 -26 -8 -26 -15 -9 -6 13 -7 3 -4 -25 8 -65 -2 -75 -80 -75 -78 0 -88 10 -80 75 3 30 2 38 -4 25 -7 -17 -10 -15 -16 17 -8 43 -1 58 27 58 17 0 18 -3 8 -15 -7 -8 -16 -12 -21 -9 -5 3 -6 -2 -3 -10 5 -13 12 -10 36 14 34 34 57 37 95 13z"/><path d="M271 251 c-8 -5 -9 -11 -3 -15 5 -3 12 1 16 9 6 17 6 18 -13 6z"/></g></svg>
+          </a>
+        </div>
+      </div> 
+      <div class="w-ful md:w-16 group mt-auto">
+        <a href="#" class="text-lg flex items-center justify-center gap-[3px] rounded-full border-4 border-slate-600 h-8 w-8 group-hover:border-white"> 
+          <svg class="h-5 w-5 text-slate-600 group-hover:text-white" viewBox="0 0 98 68" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M49.1607 0.37793L0.366516 49.1721L18.6643 67.47L49.1607 36.9736L79.6571 67.47L97.9549 49.1721L49.1607 0.37793Z"/>
+          </svg> 
+        </a>         
+      </div> 
+      <div class="md:hidden flex flex-col">
+        <a class="link link-hover md:text-lg font-montserrat">Copyright © 2023 FAHRI GUNADI</a>
+        <a class="link link-hover md:text-lg font-montserrat leading-[2px]">Dev Portfolio Template By Dafi N Maulana</a>
+      </div> 
+    </footer>
+    <!-- footer end -->
+
+  </div>
+
+  <!-- menu -->
+  <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+  <div class="modal backdrop-blur-sm ">
+    <div class="modal-box bg-slate-800 absolute top-5 rounded-lg flex justify-between p-5">
+      <ul class="flex flex-col gap-4 w-full">
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 hover:text-blue-600 transition duration-200 cursor-pointer flex items-center gap-2">
+          <a href="#about">about</a>
+        </li>
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 hover:text-blue-600 transition duration-200 cursor-pointer flex items-center gap-2">
+          <a href="#skill">skill</a>
+        </li>
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 hover:text-blue-600 transition duration-200 cursor-pointer flex items-center gap-2">
+          <a href="#experience">experience</a>
+        </li>
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 hover:text-blue-600 transition duration-200 cursor-pointer flex items-center gap-2">
+          <a href="#project">project</a>
+        </li>
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 hover:text-blue-600 transition duration-200 cursor-pointer flex items-center gap-2">
+          <a href="#post">post</a>
+        </li>
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 hover:text-blue-600 transition duration-200 cursor-pointer flex items-center gap-2">
+          <a href="#contact">contact</a>
+        </li>
+        <li class="font-inter font-semibold text-lg capitalize text-slate-500 transition duration-200 before:w-[270px] before:mx-auto before:border-t before:border-gray-500 before:absolute before:left-0 before:-right-0 before:-top-1 relative text-center">
+          social
+          <div class="flex mx-auto gap-3 w-auto justify-center mt-1">
+            <a href="https://www.instagram.com/fahri_gunadi/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg"  class="h-7 w-7 transition duration-300 hover:text-[#fb3958]" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+            <a href="https://twitter.com/fahrigunadi" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-300 hover:text-[#00acee]" fill="currentColor" viewBox="0 0 512 512">
+                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            </a>
+            <a href="https://github.com/fahrigunadi" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-300 hover:text-[#fff]" fill="currentColor" viewBox="0 0 496 512">
+                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/fahrigunadi/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 transition duration-300 hover:text-[#0e76a8]" fill="currentColor" viewBox="0 0 448 512">
+                <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
+            <a href="https://www.showwcase.com/fahrigunadi" target="_blank">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transition duration-300 hover:text-white" viewBox="0 0 39.000000 40.000000" fill="currentColor" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,40.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M115 376 c-60 -27 -115 -110 -115 -174 0 -152 168 -246 297 -166 74 46 109 139 83 219 -16 47 -66 104 -107 121 -41 18 -119 17 -158 0z m122 -103 c15 -10 24 -12 20 -5 -6 8 -2 12 12 12 24 0 34 -28 25 -66 -7 -26 -8 -26 -15 -9 -6 13 -7 3 -4 -25 8 -65 -2 -75 -80 -75 -78 0 -88 10 -80 75 3 30 2 38 -4 25 -7 -17 -10 -15 -16 17 -8 43 -1 58 27 58 17 0 18 -3 8 -15 -7 -8 -16 -12 -21 -9 -5 3 -6 -2 -3 -10 5 -13 12 -10 36 14 34 34 57 37 95 13z"/><path d="M271 251 c-8 -5 -9 -11 -3 -15 5 -3 12 1 16 9 6 17 6 18 -13 6z"/></g></svg>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <label for="my-modal-3" class="btn btn-sm btn-circle bg-transparent border-0 text-xl text-slate-500 hover:bg-transparent">✕</label>
+    </div>
+</body>
+</html>
