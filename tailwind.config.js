@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
-        'chivo': 'Chivo'
+        'chivo': ['Chivo', 'sans-serif']
       },
       keyframes: {
         bounce2: {
