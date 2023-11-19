@@ -1,4 +1,4 @@
-# Exyrus-simple-portfolio
-Build with Tailwind Css
+# Exoryous
+A simple web portfolio thab built with Tailwind Css
 
 `npm i` then run the `npm run dev`
