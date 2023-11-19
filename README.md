@@ -1,6 +1,4 @@
 # Exyrus-simple-portfolio
 Build with Tailwind Css
 
-`Npm i`
-
-then run dev
+`npm i` then run the `npm run dev`
