@@ -3,7 +3,7 @@
     "daisyui": "^2.51.1",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
-  "name": "Exyrus-simple-portfolio",
+  "name": "exoryous-simple-portfolio",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
